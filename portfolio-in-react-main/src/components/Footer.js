@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3> Developed by Maaz Bin Hassan</h3>
+          <h3> Developed by Jaffar Achakzai</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} MZ</h3>
+          <h3>Copyright © {year} Jaffar Achakzai</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/maaz-bin-hassan"
+                href="https://github.com/Jaffar-Achakzai"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -34,7 +34,7 @@ function Footer() {
             
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/maaz-bin-hassan-5942002a9"
+                href="https://www.linkedin.com/in/jaffar-achakzai-4534682a9/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -44,7 +44,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/maazzz.exe/"
+                href="https://www.instagram.com/jaffar_achakxai?igsh=enV3czNxeHhvbTBi"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
