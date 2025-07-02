@@ -3,14 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Groove from "../../Assets/Projects/portfolio-1.jpg";
-import portfolio from "../../Assets/Projects/portfolio.png";
-import gupshup from "../../Assets/Projects/portfolio-3.jpg";
-import quickbite from "../../Assets/Projects/portfolio-2.jpg";
-import Picturely from "../../Assets/Projects/portfolio-4.png";
-import MovieFinder from "../../Assets/Projects/portfolio-5.png";
-import Portfolio_react from "../../Assets/Projects/portfolio-6.png";
-import portfolio7 from "../../Assets/Projects/portfolio-7.png";
-import portfolio8 from "../../Assets/Projects/portfolio-8.png";
+import portfolio8 from "../../Assets/Projects/portfolio 9.png";
+import gupshup from "../../Assets/Projects/portfolio 2.jpg";
+import gymapp from "../../Assets/Projects/portfolio 3.jpg";
+import portfolio7 from "../../Assets/Projects/portfolio 8.png";
+import MovieFinder from "../../Assets/Projects/portpolio_5.png";
+import TravelApp from "../../Assets/Projects/portfolio 7.png";
+import portfolio from "../../Assets/Projects/portfolio_1.png";
+import MLP from "../../Assets/Projects/portpolio_4.png";
 
 function Projects() {
   return (
@@ -26,20 +26,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolio7}
+              imgPath={portfolio}
               isBlog={false}
-              title="Stress Relief APP"
-              description="A stress management app with progress and mood tracking having meditation audios and exercise videos. Built with Flutter and youtube integration and audio playback."
-              ghLink="https://github.com/maaz-bin-hassan/StressRelief"
+              title="Doctor Appointment"
+              description="A doctor appointment booking app. it was built with React.js, Node.js, Express.js, and MongoDB. It allows users to book appointments with doctors, view their profiles, and manage their appointments."
+              ghLink="https://github.com/Jaffar-Achakzai/doctorappointment-app"
+              demoLink="https://doctorappointment-app.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolio8}
+              imgPath={MLP}
               isBlog={false}
-              title="Note-Heaven APP"
-              description="AI powered note taking app . Built with flutter and gemini API with firebase as storage capable of holding notes recording audios and drawings and instant share with same network"
-              ghLink="https://github.com/maaz-bin-hassan/NoteHeaven"
+              title="Facial Emotion Detector"
+              description="A facial emotion detection app built with React.js and TensorFlow.js. It uses machine learning to detect emotions from facial expressions in real-time."
+              ghLink="https://github.com/Jaffar-Achakzai/MLP"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -57,62 +58,59 @@ function Projects() {
             <ProjectCard
               imgPath={gupshup}
               isBlog={false}
-              title="Gupshup Gazzete"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. still in progess"
-              ghLink="https://github.com/maaz-bin-hassan/blog"
-              demoLink="https://blog-peach-psi.vercel.app/"
+              title="SMARTSPEND - AI based Financial management mobile app"
+              description="A financial management mobile app that uses AI to help users manage their finances effectively.This my FYP work built with Flutter and Firebase. It allows users to track their expenses, set budgets, and get financial insights. "
+              ghLink="https://github.com/MSaifChanna/smartspend"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Portfolio_react}
+              imgPath={gymapp}
               isBlog={false}
-              title="Portfolio in react js "
-              description="Built personal portfolio in react js, using HTML CSS and JS added  functionality for ease of read"
-              ghLink="https://github.com/maaz-bin-hassan/portfolio-in-react"
-              demoLink="https://portfolio-maaz-lyart.vercel.app/"              
+              title="Gym Fitness App"
+              description="A gym fitness app built with flutter and Firebase. It allows users to track their workouts, set goals, and manage their fitness journey."
             />
           </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quickbite}
+              imgPath={TravelApp}
               isBlog={false}
-              title="Quickbite cafe"
-              description="Online cafe website which supports html, css, and js code with admin panel"
-              ghLink="https://github.com/maaz-bin-hassan/023-21-0231-maaz-bin-hassan-cafe"
-              demoLink="https://023-21-0231-maaz-bin-hassan-cafe.vercel.app/"              
+              title="Travel Bucket list map"
+              description="A travel bucket list map application built with React.js. It allows users to create and manage their travel bucket lists on an interactive map."
+              ghLink="https://github.com/Jaffar-Achakzai/travel-backet-list-app"
+              demoLink="https://travel-backet-list-app.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MovieFinder}
               isBlog={false}
-              title="Movie Finder"
-              description="Online Movie Finder website which is made in react js and uses the TMDB API to fetch the movies and display them on the website"
-              ghLink="https://github.com/maaz-bin-hassan/Movie-Finder"
-              demoLink="https://movie-finder-psi-three.vercel.app/#/"              
+              title="Movie Mode Matcher"
+              description="Online Movie Mode Matcher website which is made in react js and uses the TMDB API to fetch the movies and display them on the website"
+              ghLink="https://github.com/Jaffar-Achakzai/movie-mode-matcher"
+              demoLink="https://movie-mode-matcher.vercel.app/"              
             />
           </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Picturely}
+              imgPath={portfolio8}
               isBlog={false}
-              title="Picturely"
-              description="Online Image search engine website which is made in react js and uses the Splash API to fetch the images and display them on the website"
-              ghLink="https://github.com/maaz-bin-hassan/Picturely"
-              demoLink="https://picturely.vercel.app/" 
+              title="Daily Affirmation & Gratitude Journal"
+              description="Online Daily Affirmation & Gratitude Journal website which is made in react js and uses the OpenAI API to generate daily affirmations and gratitude prompts."
+              ghLink="https://github.com/Jaffar-Achakzai/daily-affirmation-gratitude-journal"
+              demoLink="https://portfolio-in-react-main-1wgu.vercel.app/" 
               />
            </Col> 
            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolio}
+              imgPath={portfolio7}
               isBlog={false}
-              title="personal portfolio"
-              description="Built personal portfolio, using HTML CSS and JS added dark mode functionality for ease of read"
-              ghLink="https://github.com/maaz-bin-hassan/Portfolio"
-              demoLink="https://maazbinhassan.vercel.app/"              
+              title="Habit Tracker"
+              description="A habit tracking app built with React.js. It allows users to create and manage their habits, set goals, and track their progress."
+              ghLink="https://github.com/Jaffar-Achakzai/habit-tracer"
+              demoLink="https://habit-tracer.vercel.app/"              
             />
           </Col>
         </Row>

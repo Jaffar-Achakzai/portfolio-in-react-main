@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Maaz Bin Hassan </span>
-            from <span className="purple"> Sukkur, Pakistan.</span>
+            Hi Everyone, I am <span className="purple">Jaffar Achakzai </span>
+            from <span className="purple"> Killa Abdullah, Balochistan, Pakistan.</span>
             <br />
             I am currently student at Sukkur IBA University.
             <br />
@@ -20,7 +20,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Football
             </li>
             
             <li className="about-activity">
@@ -31,7 +31,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Maaz bin hassan</footer>
+          <footer className="blockquote-footer">Jaffar Achakzai</footer>
         </blockquote>
       </Card.Body>
     </Card>
